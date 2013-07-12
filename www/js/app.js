@@ -6,30 +6,30 @@ var app = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.dir
     config(['$routeProvider', function($routeProvider) {
 
         $routeProvider.when('/', {
-            redirectTo: '/friends'});
+            redirectTo: 'friends'});
 
         $routeProvider.when('/friends', {
-            templateUrl: '/app/partials/friends.html',
+            templateUrl: 'partials/friends.html',
             controller: 'FriendsCtrl'});
 
         $routeProvider.when('/friend/:email', {
-            templateUrl: '/app/partials/friend.html',
+            templateUrl: 'partials/friend.html',
             controller: 'FriendCtrl'});
 
         $routeProvider.when('/register', {
-            templateUrl: '/app/partials/register.html',
+            templateUrl: 'partials/register.html',
             controller: 'RegisterCtrl'});
 
         $routeProvider.when('/addstatus', {
-            templateUrl: '/app/partials/addstatus.html',
+            templateUrl: 'partials/addstatus.html',
             controller: 'AddStatusCtrl'});
 
         $routeProvider.when('/addfriend', {
-            templateUrl: '/app/partials/addfriend.html',
+            templateUrl: 'partials/addfriend.html',
             controller: 'AddFriendCtrl'});
 
         $routeProvider.otherwise({
-            redirectTo: '/friends'});
+            redirectTo: 'friends'});
     }]);
 
 app.run(function ($rootScope, $http) {
