@@ -20,7 +20,7 @@
         Enable individual API permissions here.
         The "device" permission is required for the 'deviceready' event.
     -->
-    <feature name="http://kremost.herokuapp.com/" />
+    <feature name="http://devpatch.herokuapp.com/" />
 
     <!--
         If you do not want any permissions to be added to your www, add the
