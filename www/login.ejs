@@ -1,0 +1,30 @@
+<% layout('layout') -%>
+
+<div class="newstatuswrapper">
+    <div class="newstatuscontainer">
+        <h1 class="newstatustext">Login</h1>
+
+        <div class=newstatsutextandbuttoncontainer>
+            <form action="/login" method="post">
+                <div>
+                    <!--Her må navnet være/hete username selv om det egentlig er for emailen (passportjs sin skyld)-->
+                    <input style="text-transform: lowercase;"type="text" name="username" placeholder="Email"/><br/>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Password"/>
+                </div>
+                <div>
+                    <input type="submit" class="poststatusbutton btn-success btn plainFont" value="Submit">
+
+                </div>
+            </form>
+            <br>
+        </div>
+
+
+        <div class="inputfooter">
+            <h3><a href="/register" class="btn-info btn">Sign up here</a></h3>
+        </div>
+
+    </div>
+</div>

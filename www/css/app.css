@@ -1,0 +1,191 @@
+/***** Footer *****/
+/***** Footer *****/
+/***** Footer *****/
+#footer{
+    position:fixed;
+    width:100%;
+    Bottom: 0;
+    height: 8%;
+    background-color: #f5f5f5;
+}
+
+#innerfooter{
+    float:left;
+    width:100%;
+    height: 100%;
+}
+.footerleft{
+    height: 100%;
+    float:left;
+    width: 49%;
+    text-align: center;
+    border-right: #000000 solid thin;
+    border-top: #000000 solid medium;
+    background-color: mediumslateblue;
+    color: black;
+    text-decoration: none;
+}
+.footerleft:active{
+    background-color: #808080;
+}
+
+.footerright{
+    height: 100%;
+    float: left;
+    width: 49%;
+    text-align: center;
+    border-left:#000000 solid thin;
+    border-top: #000000 solid medium;
+    background-color: mediumslateblue;
+    color: black;
+    text-decoration: none;
+}
+.footerright:active{
+    background-color: #808080;
+}
+
+.headermain{
+    text-align: right;
+}
+
+.headerbutton{
+    display: inline-block;
+}
+
+.newstatuswrapper{
+    margin-top: 25%;
+    text-align: center;
+}
+
+.newstatuscontainer{
+    display: inline-block;
+
+}
+
+.newstatustext{
+    margin-bottom: 15%;
+    font-family: Existence-Light;
+    color: #D0D0CC;
+}
+
+.poststatusbutton{
+    text-align: center;
+
+}
+
+.newstatustextarea{
+    margin-left: 2.5%;
+}
+
+.inputfooter {
+    display: inline-block;
+    margin-top: 20%;
+    font-size: 115%;
+}
+
+
+.plainFont{
+    font-family: arial;
+}
+
+.commentadder{
+    line-height: 15px;
+}
+
+.faded{
+    color: cornflowerblue;
+}
+
+/***** Friends *****/
+/***** Friends *****/
+/***** Friends *****/
+.friendsmainheader{
+    width:100%;
+    min-height:20%;
+    padding-top: 5%;
+    padding-bottom: 13%;
+    padding-left: 5%;
+}
+.friendssuperheader{
+
+    float:left;
+    width:100%;
+    height: 100%;
+
+}
+.addfriendbuttoncontainer{
+    height: 100%;
+    float: left;
+    width: 35%;
+}
+.userinfriendslistwrapper{
+    height: 100%;
+    float:left;
+    width: 65%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#friendswrapper {
+    width: 100%;
+}
+
+.userinfriendslistwrapper:active {
+    background-color: peachpuff;
+}
+
+.userinfriendslist{
+    margin:auto;
+    margin-top: 1%;
+    float:left;
+}
+
+.addfriend{
+    margin:auto;
+    margin-right: 5%;
+}
+
+.friendwrapper{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-top: lightgray solid thin;
+    background-color: #f5f5f5;
+}
+
+.friendwrapper:active {
+    background-color: peachpuff;
+}
+
+.friendcontainer{
+    margin-left: 5%;
+}
+
+
+/***** Friend *****/
+/***** Friend *****/
+/***** Friend *****/
+
+.singlefriendwrapper{
+    height: 100%;
+    margin: 5%;
+}
+
+.singlefriendheaderwrapper{
+    text-align: center;
+}
+
+.singlefriendheadercontainer{
+    text-align: center;
+}
+
+.singlefriendname{
+    display: inline-block;
+}
+
+.statusadder{
+    line-height: 30px;
+    margin: 0%;
+}
+
+.dropdown-menu{
+    left: -400%;
+}
